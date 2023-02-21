@@ -28,8 +28,6 @@ import java.util.Map;
 
 @RestController
 public class TestController {
-
-	/*
 	private static final Log log = LogFactory.getLog(TestController.class);
 
 	@RequestMapping("/")
@@ -151,5 +149,5 @@ public class TestController {
 	public Map<String, String> getHeaders(ServerWebExchange exchange) {
 		return exchange.getRequest().getHeaders().toSingleValueMap();
 	}
-*/
+
 }
